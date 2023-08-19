@@ -7,6 +7,7 @@ module.exports = {
     browser: true,
     es2021: true,
   },
+  parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaVersion: "latest",
     sourceType: "module",
@@ -21,8 +22,11 @@ module.exports = {
       version: "detect",
     },
   },
-  plugins: ["react", "react-hooks", "import"],
-  extends: ["plugin:react/jsx-runtime"],
+  plugins: ["react", "react-hooks", "import", "@typescript-eslint"],
+  extends: [
+    "plugin:react/jsx-runtime",
+    "plugin:@typescript-eslint/recommended",
+  ],
   rules: {
     ...base,
     ...react,
