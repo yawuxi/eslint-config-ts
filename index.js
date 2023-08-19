@@ -1,3 +1,7 @@
+const base = require("./lib/base.js");
+const react = require("./lib/react.js");
+const imports = require("./lib/import.js");
+
 module.exports = {
   env: {
     browser: true,
@@ -18,5 +22,10 @@ module.exports = {
     },
   },
   plugins: ["react", "react-hooks", "import"],
-  extends: ["plugin:react/jsx-runtime", "eslint:recommended"],
+  extends: ["plugin:react/jsx-runtime"],
+  rules: {
+    ...base,
+    ...react,
+    ...imports,
+  },
 };

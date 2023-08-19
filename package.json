@@ -1,6 +1,6 @@
 {
-  "name": "eslint-typescript",
-  "version": "1.0.0",
+  "name": "@yawuxi/eslint-config-ts",
+  "version": "1.1.0",
   "description": "ESLint configuration for React + Typescript development",
   "main": "index.js",
   "peerDependencies": {
@@ -21,7 +21,7 @@
   "author": "Dmytro <ryliov.work@gmail.com> Rylov",
   "license": "ISC",
   "scripts": {
-    "publish": "npm pubish --access=public"
+    "release": "npm publish --access=public"
   },
   "repository": {
     "type": "git",
