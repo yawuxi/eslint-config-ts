@@ -1,0 +1,34 @@
+{
+  "name": "eslint-typescript",
+  "version": "1.0.0",
+  "description": "ESLint configuration for React + Typescript development",
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": "^8.43.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "reacteslint",
+    "typescript",
+    "typescripteslint",
+    "config",
+    "yawuxi"
+  ],
+  "author": "Dmytro <ryliov.work@gmail.com> Rylov",
+  "license": "ISC",
+  "scripts": {
+    "publish": "npm pubish --access=public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yawuxi/eslint-typescript"
+  },
+  "bugs": {
+    "url": "https://github.com/yawuxi/eslint-typescript/issues"
+  },
+  "homepage": "https://github.com/yawuxi/eslint-typescript"
+}
