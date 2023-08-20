@@ -1,4 +1,5 @@
 const base = require("./lib/base.js");
+const base = require("./lib/typescript.js");
 const react = require("./lib/react.js");
 const imports = require("./lib/import.js");
 
@@ -29,6 +30,7 @@ module.exports = {
   ],
   rules: {
     ...base,
+    ...typescript,
     ...react,
     ...imports,
   },
