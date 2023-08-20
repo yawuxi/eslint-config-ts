@@ -1,6 +1,6 @@
 {
   "name": "@yawuxi/eslint-config-ts",
-  "version": "2.2.1",
+  "version": "3.2.1",
   "description": "ESLint configuration for React + Typescript development",
   "main": "index.js",
   "peerDependencies": {
